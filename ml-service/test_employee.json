@@ -1,0 +1,25 @@
+{
+    "employee_id": "EMP-TEST-001",
+    "employee_department": "Engineering Department",
+    "employee_campus": "Campus A",
+    "employee_position": "Data Scientist",
+    "employee_origin_country": "India",
+    "employee_seniority_years": 5,
+    "is_contractor": 0,
+    "employee_classification": 3,
+    "has_foreign_citizenship": 0,
+    "has_criminal_record": 0,
+    "has_medical_history": 0,
+    "total_printed_pages": 29,
+    "num_printed_pages_off_hours": 0,
+    "total_files_burned": 7,
+    "burned_from_other": 0,
+    "is_abroad": 0,
+    "trip_day_number": 0,
+    "hostility_country_level": 0,
+    "num_entries": 1,
+    "num_unique_campus": 1,
+    "late_exit_flag": 0,
+    "entry_during_weekend": 0
+    
+}

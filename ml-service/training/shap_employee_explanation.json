@@ -1,0 +1,71 @@
+{
+    "prediction": "NORMAL",
+    "probability": 3.5849e-05,
+    "risk_score": 0.003585,
+    "risk_level": "LOW",
+    "classification_threshold": 0.65,
+    "risk_factors": [
+        {
+            "feature": "burned_from_other",
+            "value": 0.0,
+            "shap_value": 0.733509,
+            "direction": "INCREASED_RISK"
+        },
+        {
+            "feature": "entry_during_weekend",
+            "value": 0.0,
+            "shap_value": 0.477845,
+            "direction": "INCREASED_RISK"
+        },
+        {
+            "feature": "burn_ratio",
+            "value": 3.5,
+            "shap_value": 0.144444,
+            "direction": "INCREASED_RISK"
+        },
+        {
+            "feature": "num_printed_pages_off_hours",
+            "value": 0.0,
+            "shap_value": 0.075708,
+            "direction": "INCREASED_RISK"
+        },
+        {
+            "feature": "trip_day_number",
+            "value": 0.0,
+            "shap_value": 0.031299,
+            "direction": "INCREASED_RISK"
+        }
+    ],
+    "protective_factors": [
+        {
+            "feature": "off_hour_print_ratio",
+            "value": 0.0,
+            "shap_value": -0.436903,
+            "direction": "DECREASED_RISK"
+        },
+        {
+            "feature": "total_files_burned",
+            "value": 7.0,
+            "shap_value": -0.328348,
+            "direction": "DECREASED_RISK"
+        },
+        {
+            "feature": "total_printed_pages",
+            "value": 29.0,
+            "shap_value": -0.146235,
+            "direction": "DECREASED_RISK"
+        },
+        {
+            "feature": "is_abroad",
+            "value": 0.0,
+            "shap_value": -0.01529,
+            "direction": "DECREASED_RISK"
+        },
+        {
+            "feature": "num_entries",
+            "value": 1.0,
+            "shap_value": -0.013572,
+            "direction": "DECREASED_RISK"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+services:
+
+  # ==========================================================
+  # ML / FASTAPI
+  # ==========================================================
+  threatshield-ml:
+    build:
+      context: ./ml-service
+    container_name: threatshield-ml-container
+    ports:
+      - "8000:8000"
+
+
+  # ==========================================================
+  # SPRING BOOT BACKEND
+  # ==========================================================
+  threatshield-backend:
+    build:
+      context: ./backend
+    container_name: threatshield-backend-container
+
+    ports:
+      - "8081:8081"
+
+    environment:
+      ML_SERVICE_URL: http://threatshield-ml:8000
+
+    depends_on:
+      - threatshield-ml
+
+
+  # ==========================================================
+  # REACT FRONTEND
+  # ==========================================================
+  threatshield-frontend:
+    build:
+      context: ./frontend
+    container_name: threatshield-frontend-container
+
+    ports:
+      - "5173:80"
+
+    depends_on:
+      - threatshield-backend

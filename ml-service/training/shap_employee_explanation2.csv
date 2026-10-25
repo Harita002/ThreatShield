@@ -1,0 +1,27 @@
+Base_Feature,Feature_Value,SHAP_Value,Direction
+employee_seniority_years,10.0,-1.1945704,DECREASED_RISK
+burned_from_other,0.0,0.73350924,INCREASED_RISK
+entry_during_weekend,0.0,0.47784472,INCREASED_RISK
+off_hour_print_ratio,0.0,-0.4369026,DECREASED_RISK
+employee_classification,3.0,-0.38344625,DECREASED_RISK
+employee_campus,Campus C,-0.3337869,DECREASED_RISK
+total_files_burned,7.0,-0.3283484,DECREASED_RISK
+has_foreign_citizenship,0.0,0.2732134,INCREASED_RISK
+hostility_country_level,0.0,0.16816488,INCREASED_RISK
+total_printed_pages,29.0,-0.1462347,DECREASED_RISK
+burn_ratio,3.5,0.14444375,INCREASED_RISK
+num_printed_pages_off_hours,0.0,0.07570802,INCREASED_RISK
+employee_origin_country,Israel,-0.07002347,DECREASED_RISK
+trip_day_number,0.0,0.03129877,INCREASED_RISK
+access_frequency_score,1.0,0.026328681,INCREASED_RISK
+employee_department,R&D Department,0.018505746,INCREASED_RISK
+is_abroad,0.0,-0.015289854,DECREASED_RISK
+num_entries,1.0,-0.013571996,DECREASED_RISK
+has_criminal_record,1.0,-0.012955189,DECREASED_RISK
+is_contractor,1.0,-0.012069942,DECREASED_RISK
+employee_position,Algorithm Engineer,-0.004654201,DECREASED_RISK
+behavior_risk_score,1.0,-0.0045181597,DECREASED_RISK
+num_unique_campus,1.0,0.0026959172,INCREASED_RISK
+has_medical_history,0.0,0.002471984,INCREASED_RISK
+late_exit_flag,0.0,0.0,DECREASED_RISK
+mobility_risk,0.0,0.0,DECREASED_RISK

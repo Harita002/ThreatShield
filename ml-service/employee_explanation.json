@@ -1,0 +1,94 @@
+{
+    "prediction": "NORMAL",
+    "probability": 3.5849e-05,
+    "risk_score": 0.003585,
+    "risk_level": "LOW",
+    "classification_threshold": 0.65,
+    "summary": "The model classified the activity as normal with a risk score of 0.00%, which is below the 65% classification threshold.",
+    "risk_factors": [
+        {
+            "feature": "burned_from_other",
+            "display_name": "Files burned from another source",
+            "value": 0.0,
+            "shap_value": 0.733509,
+            "direction": "INCREASED_RISK",
+            "description": "File activity involving files burned from another source increased the model's risk assessment."
+        },
+        {
+            "feature": "entry_during_weekend",
+            "display_name": "Weekend access",
+            "value": 0.0,
+            "shap_value": 0.477845,
+            "direction": "INCREASED_RISK",
+            "description": "Weekend access activity increased the model's risk assessment."
+        },
+        {
+            "feature": "burn_ratio",
+            "display_name": "File burn ratio",
+            "value": 3.5,
+            "shap_value": 0.144444,
+            "direction": "INCREASED_RISK",
+            "description": "The file-burning ratio contributed toward a higher model risk assessment."
+        },
+        {
+            "feature": "num_printed_pages_off_hours",
+            "display_name": "After-hours printed pages",
+            "value": 0.0,
+            "shap_value": 0.075708,
+            "direction": "INCREASED_RISK",
+            "description": "After-hours printing activity contributed toward a higher model risk assessment."
+        },
+        {
+            "feature": "trip_day_number",
+            "display_name": "Trip day activity",
+            "value": 0.0,
+            "shap_value": 0.031299,
+            "direction": "INCREASED_RISK",
+            "description": "The employee's travel-day activity contributed toward a higher model risk assessment."
+        }
+    ],
+    "protective_factors": [
+        {
+            "feature": "off_hour_print_ratio",
+            "display_name": "After-hours printing ratio",
+            "value": 0.0,
+            "shap_value": -0.436903,
+            "direction": "DECREASED_RISK",
+            "description": "The observed off-hours printing ratio contributed toward a lower model risk assessment."
+        },
+        {
+            "feature": "total_files_burned",
+            "display_name": "Total files burned",
+            "value": 7.0,
+            "shap_value": -0.328348,
+            "direction": "DECREASED_RISK",
+            "description": "The observed file-burning activity contributed toward a lower model risk assessment."
+        },
+        {
+            "feature": "total_printed_pages",
+            "display_name": "Total printed pages",
+            "value": 29.0,
+            "shap_value": -0.146235,
+            "direction": "DECREASED_RISK",
+            "description": "The observed printing volume contributed toward a lower model risk assessment."
+        },
+        {
+            "feature": "is_abroad",
+            "display_name": "Travel activity",
+            "value": 0.0,
+            "shap_value": -0.01529,
+            "direction": "DECREASED_RISK",
+            "description": "The observed travel-related activity contributed toward a lower model risk assessment."
+        },
+        {
+            "feature": "num_entries",
+            "display_name": "Number of entries",
+            "value": 1.0,
+            "shap_value": -0.013572,
+            "direction": "DECREASED_RISK",
+            "description": "The observed access-entry pattern contributed toward a lower model risk assessment."
+        }
+    ],
+    "risk_interpretation": "The model assigns a low risk level. The predicted probability is well below the suspicious classification threshold.",
+    "explanation_note": "SHAP values represent the contribution of features to the model prediction. They indicate model influence and should not be interpreted as causal evidence."
+}

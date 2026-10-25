@@ -1,0 +1,51 @@
+employee_id,employee_department,employee_campus,employee_position,employee_origin_country,employee_seniority_years,is_contractor,employee_classification,has_foreign_citizenship,has_criminal_record,has_medical_history,total_printed_pages,num_printed_pages_off_hours,total_files_burned,burned_from_other,is_abroad,trip_day_number,hostility_country_level,num_entries,num_unique_campus,late_exit_flag,entry_during_weekend
+EMP-00001,Engineering Department,Campus C,Marketing Manager,Russia,4,0,1,0,1,1,173,7,1,0,0,3,1,17,3,0,0
+EMP-00002,Sales Department,Campus C,Secretary,Russia,8,0,1,0,0,0,193,41,8,0,0,5,0,3,2,0,0
+EMP-00003,Operations Department,Campus B,Data Scientist,Canada,9,0,4,0,1,0,226,22,11,0,0,0,1,10,1,0,0
+EMP-00004,R&D Department,Campus C,Warehouse Manager,China,6,0,2,0,0,0,107,17,7,0,1,6,2,18,1,0,0
+EMP-00005,Engineering Department,Campus B,Secretary,USA,2,0,5,0,0,1,68,52,12,1,0,4,1,8,3,0,1
+EMP-00006,R&D Department,Campus B,Financial Analyst,China,9,1,1,0,0,0,239,37,5,1,0,6,3,20,2,0,0
+EMP-00007,Engineering Department,Campus C,Systems and Network Administrator,USA,13,0,1,0,0,0,184,46,14,0,0,8,1,17,1,0,0
+EMP-00008,Finance Department,Campus C,Systems and Network Administrator,India,10,0,4,0,0,0,49,23,9,0,0,3,0,3,3,1,0
+EMP-00009,Finance Department,Campus A,Budget Manager,China,5,1,2,0,0,1,204,34,11,1,1,1,1,8,1,0,0
+EMP-00010,Finance Department,Campus C,Financial Analyst,India,2,0,2,0,0,0,160,35,2,0,0,10,3,7,3,0,1
+EMP-00011,R&D Department,Campus B,Financial Analyst,Germany,2,1,3,1,0,1,72,50,1,0,0,6,2,4,1,0,0
+EMP-00012,Finance Department,Campus B,Project Engineer,USA,8,0,1,1,1,0,147,28,1,0,0,3,1,14,2,1,0
+EMP-00013,Engineering Department,Campus A,Secretary,India,7,0,4,0,0,1,231,25,4,0,0,3,0,19,3,0,0
+EMP-00014,Operations Department,Campus B,Systems and Network Administrator,China,1,0,2,0,1,0,24,1,7,1,0,9,1,19,3,0,0
+EMP-00015,Operations Department,Campus C,Systems and Network Administrator,UK,15,0,2,0,0,0,117,42,12,0,0,7,2,3,1,1,0
+EMP-00016,Finance Department,Campus C,Marketing Manager,China,15,0,1,0,0,0,28,17,5,1,0,9,0,18,2,0,0
+EMP-00017,Engineering Department,Campus C,Systems and Network Administrator,China,5,0,5,0,0,0,77,7,8,1,0,0,0,14,2,0,0
+EMP-00018,Finance Department,Campus C,Marketing Manager,China,12,1,5,1,1,0,95,49,3,0,0,8,0,12,3,0,1
+EMP-00019,HR Department,Campus B,Data Scientist,UK,4,0,1,0,1,1,42,2,4,0,0,2,3,1,1,0,1
+EMP-00020,Sales Department,Campus A,Marketing Manager,China,13,0,4,0,0,0,215,42,6,1,0,4,1,8,1,0,1
+EMP-00021,Engineering Department,Campus B,Warehouse Manager,France,11,0,1,0,0,0,94,17,8,0,0,9,3,12,3,0,1
+EMP-00022,Engineering Department,Campus B,Enterprise Systems Developer (ERP / CRM / SAP),Russia,5,0,4,0,1,0,165,32,11,1,0,10,2,20,2,0,0
+EMP-00023,Sales Department,Campus B,Warehouse Manager,France,12,0,5,0,0,1,139,19,12,0,0,6,0,10,2,0,1
+EMP-00024,Operations Department,Campus C,Warehouse Manager,Canada,8,1,2,1,0,0,211,37,9,0,0,3,2,8,1,0,0
+EMP-00025,R&D Department,Campus C,Software Engineer,Canada,7,0,4,1,0,0,21,7,4,0,0,6,1,6,3,1,0
+EMP-00026,Engineering Department,Campus B,Project Engineer,Canada,11,0,4,1,1,1,152,15,5,1,1,4,1,9,3,1,0
+EMP-00027,Engineering Department,Campus C,Marketing Manager,Russia,5,0,3,0,0,0,80,28,7,1,0,3,0,14,2,0,1
+EMP-00028,Finance Department,Campus B,Secretary,India,14,1,4,0,0,0,116,3,12,1,0,7,1,9,2,1,0
+EMP-00029,Sales Department,Campus C,Secretary,China,14,1,2,0,0,0,109,21,2,1,0,7,1,2,2,1,0
+EMP-00030,HR Department,Campus B,Secretary,USA,13,1,3,0,0,0,64,29,1,0,0,10,0,2,1,0,0
+EMP-00031,Operations Department,Campus A,Financial Analyst,China,8,0,5,0,0,0,224,1,11,0,0,2,2,4,3,0,0
+EMP-00032,R&D Department,Campus B,Financial Analyst,Germany,10,0,1,0,1,0,157,43,1,0,1,10,2,3,3,0,0
+EMP-00033,R&D Department,Campus A,Secretary,UK,11,1,2,1,0,0,227,26,15,1,1,9,2,11,1,0,0
+EMP-00034,Finance Department,Campus B,Enterprise Systems Developer (ERP / CRM / SAP),France,6,0,4,0,0,1,235,28,6,0,0,5,2,20,3,0,0
+EMP-00035,Finance Department,Campus A,Financial Analyst,France,8,0,4,1,0,0,142,60,2,0,0,6,1,10,3,0,1
+EMP-00036,HR Department,Campus B,Systems and Network Administrator,UK,6,1,3,0,0,0,151,33,3,0,0,1,1,7,1,1,0
+EMP-00037,Operations Department,Campus C,Marketing Manager,Germany,14,0,3,0,0,0,195,37,9,0,0,4,0,2,3,0,0
+EMP-00038,R&D Department,Campus A,Data Scientist,USA,8,1,4,0,0,0,173,55,8,1,0,1,3,16,1,0,0
+EMP-00039,HR Department,Campus A,Financial Analyst,Germany,9,1,5,0,1,1,48,36,14,1,0,9,3,10,3,0,0
+EMP-00040,Sales Department,Campus A,Marketing Manager,Germany,3,0,2,0,0,0,205,13,13,1,1,4,0,8,2,0,1
+EMP-00041,Finance Department,Campus B,Enterprise Systems Developer (ERP / CRM / SAP),Russia,7,0,5,0,0,0,28,21,4,0,0,2,2,20,3,0,1
+EMP-00042,Sales Department,Campus B,Secretary,USA,9,1,4,0,1,0,41,29,13,0,0,0,0,8,3,0,0
+EMP-00043,Finance Department,Campus B,Systems and Network Administrator,Canada,15,0,2,1,0,0,157,2,15,0,1,5,2,4,1,0,1
+EMP-00044,HR Department,Campus C,Secretary,India,8,0,3,0,0,0,187,31,12,0,1,6,0,7,3,0,1
+EMP-00045,Engineering Department,Campus A,Marketing Manager,China,15,0,4,1,0,0,170,28,7,0,0,8,0,18,2,0,0
+EMP-00046,Engineering Department,Campus B,Software Engineer,China,8,0,5,0,0,1,225,58,15,0,1,8,1,13,1,0,0
+EMP-00047,R&D Department,Campus B,Systems and Network Administrator,USA,14,0,3,0,1,1,80,49,4,1,1,5,2,18,3,1,1
+EMP-00048,Finance Department,Campus C,Financial Analyst,France,4,1,1,0,0,1,248,20,12,0,1,0,1,17,3,0,0
+EMP-00049,R&D Department,Campus A,Systems and Network Administrator,Canada,1,0,4,0,0,1,233,54,8,0,1,10,0,11,3,1,0
+EMP-00050,R&D Department,Campus C,Data Scientist,Germany,4,0,2,0,0,0,170,45,3,1,0,4,0,2,2,0,0
